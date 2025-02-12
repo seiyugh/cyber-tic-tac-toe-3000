@@ -9,7 +9,7 @@ body {
     overflow: hidden;
 }
 
-/* Holographic moving background */
+
 .neon-grid {
     position: absolute;
     top: 0; left: 0;
@@ -26,7 +26,7 @@ body {
     to { background-position: -200px 200px; }
 }
 
-/* Title with cyberpunk glitch effect */
+
 .title {
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -41,7 +41,6 @@ body {
     100% { opacity: 1; text-shadow: 0 0 10px #0ff, 0 0 20px #00f; }
 }
 
-/* AI Assistant Panel */
 .ai-assistant {
     background: rgba(0, 255, 255, 0.1);
     border: 2px solid #0ff;
@@ -61,7 +60,7 @@ body {
     100% { text-shadow: 0 0 5px #0ff, 0 0 10px #00f; }
 }
 
-/* Neon glowing board */
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 120px);
@@ -72,7 +71,7 @@ body {
     position: relative;
 }
 
-/* Animated cells */
+
 .cell {
     width: 120px;
     height: 120px;
@@ -90,7 +89,7 @@ body {
     animation: pulse 2s infinite alternate;
 }
 
-/* Glowing effect */
+
 @keyframes pulse {
     from { box-shadow: 0 0 10px #0ff; }
     to { box-shadow: 0 0 25px #0ff, 0 0 50px #00f; }
@@ -113,14 +112,13 @@ body {
     text-shadow: 0 0 15px #0f0, 0 0 30px #00ff00;
 }
 
-/* Cyber Status Display */
+
 #status {
     font-size: 1.8rem;
     text-shadow: 0 0 10px #0ff;
     margin-top: 20px;
 }
 
-/* Futuristic Restart Button */
 #reset {
     background: none;
     border: 2px solid #0ff;
