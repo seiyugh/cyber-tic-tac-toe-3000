@@ -4,6 +4,7 @@ const resetButton = document.getElementById("reset");
 let board = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
 let gameActive = true;
+let win;
 
 const winningConditions = [
   [0, 1, 2], [3, 4, 5], [6, 7, 8],

@@ -2,7 +2,7 @@
 
 Welcome to Cyber Tic-Tac-Toe 3000 – a futuristic, holographic take on the classic Tic-Tac-Toe game. Battle your AI assistant or play against a friend in this interactive and visually stunning version of the timeless game.
 
-Features
+Features:
 
 - Holographic Grid: Experience a sleek neon grid that adds a futuristic vibe to your Tic-Tac-Toe game.
 - AI Assistant: Challenge the system itself with our integrated AI assistant.
